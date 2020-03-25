@@ -1,0 +1,32 @@
+h3 {
+    margin: 15px;
+    text-align: center;
+}
+
+.top-heroes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        flex-basis: 25%;
+        padding: 25px 10px;
+        margin-right: 10px;
+
+        text-align: center;
+        color: inherit;
+        background: #ebebeb;
+        box-shadow: 0 0 2px rgba($color: #ebebeb, $alpha: 1.0);
+
+        transition: all .2s ease-in-out;
+    }
+    a:last-child {
+        margin-right: 0;
+    }
+    a:hover {
+        cursor: pointer;
+        color: #ffffff;
+        background: #bebebe;
+        box-shadow: 0 0 2px rgba($color: #ebebeb, $alpha: 1.0);
+    }
+}

@@ -1,0 +1,44 @@
+.heroes {
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+
+        margin: 10px 0;
+
+        background: #ebebeb;
+        box-shadow: 0 0 2px rgba($color: #ebebeb, $alpha: 1.0);
+
+        transition: all .2s ease-in-out;
+
+        span {
+            margin-right: 10px;
+            padding: 10px;
+
+            background: #bebebe;
+            box-shadow: 0 0 2px rgba($color: #bebebe, $alpha: 1.0);
+
+            transition: all .2s ease-in-out;
+        }
+    }
+    li:hover {
+        color: #ffffff;
+        background: #bebebe;
+        box-shadow: 0 0 2px rgba($color: #bebebe, $alpha: 1.0);
+
+        cursor: pointer;
+
+        span {
+            color: #333333;
+            background: #ebebeb;
+            box-shadow: 0 0 2px rgba($color: #ebebeb, $alpha: 1.0);
+        }
+    }
+}
+
+
+
